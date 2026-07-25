@@ -1,19 +1,4 @@
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Юридические услуги Кушаковой Юлии Вячеславовны в Омске. Консультации, документы, споры и представительство."
-    >
-    <meta name="theme-color" content="#111312">
-    <title>Юридические услуги | Кушакова Юлия Вячеславовна</title>
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="preload" href="assets/themis.png" as="image">
-    <link rel="stylesheet" href="styles.css?v=20260726">
-  </head>
-  <body>
+export const siteMarkup = `
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Юридические услуги, на главную">
         <span class="brand__mark" aria-hidden="true">
@@ -345,8 +330,4 @@
       <a href="tel:+79091998550">Позвонить</a>
       <a href="https://wa.me/79091998550" target="_blank" rel="noopener">WhatsApp</a>
       <a href="#request">Обращение</a>
-    </div>
-
-    <script src="script.js?v=20260726"></script>
-  </body>
-</html>
+    </div>`;
